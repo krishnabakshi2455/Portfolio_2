@@ -6,6 +6,9 @@ import Herosection from './components/Herosection/Herosection'
 import Skills from './components/Skills/Skills'
 import Education from './components/Education/Education'
 import { BrowserRouter as Router } from 'react-router-dom'
+import Experience from './components/Experience/Experience'
+import Projects from './components/Projects/Projects'
+import Contact from './components/Contact/Contact'
 const Body = styled.div`
 background-color:${({ theme }) => theme.bg};
 width:100%;
@@ -30,7 +33,10 @@ function App() {
             <Herosection />
             <Wrapper>
               <Skills />
+              {/* <Experience/> */}
+              <Projects/>
               <Education />
+              <Contact/>
             </Wrapper>
           </Body>
         </Router>

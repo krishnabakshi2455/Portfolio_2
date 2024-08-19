@@ -94,8 +94,9 @@ const Img = styled.img`
   width: 100%;
   height: 100%;
   max-width: 400px;
+  
   max-height: 400px;
-  border-radius: 50%;
+  border-radius: 10%;
   border: 2px solid ${({ theme }) => theme.primary};
 
   @media (max-width: 768px) {
@@ -178,10 +179,8 @@ const ResumeButton = styled.a`
     font-size: 20px;
     font-weight: 600;
     transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: rgba(0, 0, 237, 0.814);
+    background: linear-gradient(225deg, rgba(0, 0, 237, 0.814), 1) 0%, rgba(0, 0, 178, 0.814), 1) 100%);   
     box-shadow:  20px 20px 60px #1F2634,
     -20px -20px 60px #1F2634;
     &:hover {

@@ -50,6 +50,7 @@ body {
 }
 
 .k{
-    background-color: #1C1E27;
+    background-color: rgba(0, 0, 178, 0.814);
     color: #F2F3F4;
+    /* background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%); */
 }
